@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyNoteApp</string>
+    <string name="search_by_title">Search your notes</string>
+</resources>

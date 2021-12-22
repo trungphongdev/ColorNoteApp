@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyNoteApp/app/src/main/res/drawable/custom_cardview.xml" value="0.24412665985699694" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/drawable/custom_choose_color.xml" value="0.24739583333333334" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/drawable/custom_color.xml" value="0.24739583333333334" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/drawable/custom_edittext.xml" value="0.24739583333333334" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.24739583333333334" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.24739583333333334" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/activity_main.xml" value="0.22708333333333333" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/activity_main2.xml" value="0.22708333333333333" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/activity_main3.xml" value="0.176" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/bottom_sheet.xml" value="0.22708333333333333" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/bottom_sheet_main3.xml" value="0.22708333333333333" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/custom_activity_main3.xml" value="0.2" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/custom_ui_main2.xml" value="0.22708333333333333" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/f.xml" value="0.22708333333333333" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/item_row.xml" value="0.264" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/layout/recycler_view_item.xml" value="0.22864583333333333" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/menu/bottom_appbar_main2.xml" value="0.16" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/menu/nav_drawer.xml" value="0.22708333333333333" />
+        <entry key="..\:/MyNoteApp/app/src/main/res/menu/popup_main3.xml" value="0.22708333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

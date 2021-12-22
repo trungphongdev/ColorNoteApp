@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item
+                android:title="camera"
+                android:id="@+id/item_camera"
+                android:icon="@drawable/ic_baseline_camera_alt_24"
+                android:contentDescription="camera"/>
+            <item
+                android:title="alarm"
+                android:id="@+id/item_alarm"
+                android:icon="@drawable/ic_baseline_add_alarm_24"
+                android:contentDescription="alarm" />
+            <item
+                android:title="edit"
+                android:id="@+id/item_edit"
+                android:icon="@drawable/edit"
+                android:contentDescription="edit"/>
+</menu>

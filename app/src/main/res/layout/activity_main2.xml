@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2"
+        >
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:fitsSystemWindows="true"
+        android:padding="10dp"
+        app:layout_anchorGravity="bottom|end|start"
+
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/myRecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|bottom"
+            android:fitsSystemWindows="true"
+          />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/botom_appbar"
+        app:layout_anchorGravity="bottom"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clipToPadding="false"
+        android:paddingBottom="20dp"
+        app:fabAlignmentMode="end"
+        app:hideOnScroll="true"
+        android:backgroundTint="@color/white"
+        app:navigationIcon="@drawable/menu"
+        android:contentDescription="menu"
+        app:menu="@menu/bottom_appbar_main2" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/white"
+        android:contentDescription="floattingbutton"
+        app:layout_anchor="@id/botom_appbar"
+        app:srcCompat="@drawable/ic_baseline_add_24" />
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
